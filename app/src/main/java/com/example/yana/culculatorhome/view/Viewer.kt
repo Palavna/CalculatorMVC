@@ -84,11 +84,11 @@ class Viewer : AppCompatActivity() {
 
         val btnAc = findViewById<Button>(R.id.btnAc)
         btnAc.setOnClickListener {
+
             controller.clear()
             inputTv?.text = ""
             resultTv?.text = ""
         }
-
 }
     fun update(temp: String) {
         val result = resultTv
